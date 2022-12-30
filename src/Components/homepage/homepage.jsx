@@ -1,12 +1,11 @@
-import Header from "../header/header"
+import Header from "../Header/Header";
 
-function Home () {
-
-    return(
-        <div>
-            <Header/>
-            <h1>This is Home</h1>
-        </div>
-    )
+function Home() {
+  return (
+    <div>
+      <Header />
+      <h1>This is Home</h1>
+    </div>
+  );
 }
-export default Home
+export default Home;
