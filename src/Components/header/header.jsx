@@ -1,8 +1,10 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../header/header.css";
+import homepage from "../homepage/homepage"
 function Header() {
 return(
+  <>
 <div>
  <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
@@ -31,6 +33,7 @@ return(
       </div>
     </nav>
 </div>
+</>
 )
 }
 
